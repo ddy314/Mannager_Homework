@@ -1,0 +1,5 @@
+D:/code/Mannager_Homework/cmake-build-debug/CMakeFiles/test_15.dir
+D:/code/Mannager_Homework/cmake-build-debug/CMakeFiles/test_19.dir
+D:/code/Mannager_Homework/cmake-build-debug/CMakeFiles/test_20.dir
+D:/code/Mannager_Homework/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/code/Mannager_Homework/cmake-build-debug/CMakeFiles/rebuild_cache.dir
