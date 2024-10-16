@@ -139,6 +139,39 @@ build test_20.exe: C_EXECUTABLE_LINKER__test_20_Debug CMakeFiles/test_20.dir/par
   TARGET_IMPLIB = libtest_20.dll.a
   TARGET_PDB = test_20.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target test_49
+
+
+#############################################
+# Order-only phony target for test_49
+
+build cmake_object_order_depends_target_test_49: phony || .
+
+build CMakeFiles/test_49.dir/part_3/test_49.c.obj: C_COMPILER__test_49_unscanned_Debug D$:/code/Mannager_Homework/part_3/test_49.c || cmake_object_order_depends_target_test_49
+  DEP_FILE = CMakeFiles\test_49.dir\part_3\test_49.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test_49.dir
+  OBJECT_FILE_DIR = CMakeFiles\test_49.dir\part_3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_49
+
+
+#############################################
+# Link the executable test_49.exe
+
+build test_49.exe: C_EXECUTABLE_LINKER__test_49_Debug CMakeFiles/test_49.dir/part_3/test_49.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test_49.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test_49.exe
+  TARGET_IMPLIB = libtest_49.dll.a
+  TARGET_PDB = test_49.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -171,6 +204,8 @@ build test_19: phony test_19.exe
 
 build test_20: phony test_20.exe
 
+build test_49: phony test_49.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -179,7 +214,7 @@ build test_20: phony test_20.exe
 #############################################
 # Folder: D:/code/Mannager_Homework/cmake-build-debug
 
-build all: phony test_15.exe test_19.exe test_20.exe
+build all: phony test_15.exe test_19.exe test_20.exe test_49.exe
 
 # =============================================================================
 # Built-in targets
