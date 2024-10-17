@@ -4,5 +4,9 @@ D:/code/Mannager_Homework/cmake-build-debug/CMakeFiles/test_20.dir
 D:/code/Mannager_Homework/cmake-build-debug/CMakeFiles/test_49.dir
 D:/code/Mannager_Homework/cmake-build-debug/CMakeFiles/test_94.dir
 D:/code/Mannager_Homework/cmake-build-debug/CMakeFiles/test_126.dir
+D:/code/Mannager_Homework/cmake-build-debug/CMakeFiles/test_127.dir
+D:/code/Mannager_Homework/cmake-build-debug/CMakeFiles/test_129.dir
+D:/code/Mannager_Homework/cmake-build-debug/CMakeFiles/test_144.dir
+D:/code/Mannager_Homework/cmake-build-debug/CMakeFiles/test_186.dir
 D:/code/Mannager_Homework/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/code/Mannager_Homework/cmake-build-debug/CMakeFiles/rebuild_cache.dir
