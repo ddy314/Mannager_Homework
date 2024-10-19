@@ -766,6 +766,39 @@ build test_92.exe: C_EXECUTABLE_LINKER__test_92_Debug CMakeFiles/test_92.dir/par
   TARGET_IMPLIB = libtest_92.dll.a
   TARGET_PDB = test_92.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target test_101
+
+
+#############################################
+# Order-only phony target for test_101
+
+build cmake_object_order_depends_target_test_101: phony || .
+
+build CMakeFiles/test_101.dir/part_3/test_101.c.obj: C_COMPILER__test_101_unscanned_Debug D$:/code/Mannager_Homework/part_3/test_101.c || cmake_object_order_depends_target_test_101
+  DEP_FILE = CMakeFiles\test_101.dir\part_3\test_101.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test_101.dir
+  OBJECT_FILE_DIR = CMakeFiles\test_101.dir\part_3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_101
+
+
+#############################################
+# Link the executable test_101.exe
+
+build test_101.exe: C_EXECUTABLE_LINKER__test_101_Debug CMakeFiles/test_101.dir/part_3/test_101.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test_101.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test_101.exe
+  TARGET_IMPLIB = libtest_101.dll.a
+  TARGET_PDB = test_101.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -791,6 +824,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
+
+build test_101: phony test_101.exe
 
 build test_125: phony test_125.exe
 
@@ -844,7 +879,7 @@ build tset_209: phony tset_209.exe
 #############################################
 # Folder: D:/code/Mannager_Homework/cmake-build-debug
 
-build all: phony test_15.exe test_19.exe test_20.exe test_49.exe test_94.exe test_126.exe test_127.exe test_129.exe test_144.exe test_186.exe test_125.exe test_206.exe test_208.exe tset_209.exe test_210.exe test_213.exe test_215.exe test_249.exe test_276.exe test_16.exe test_17.exe test_92.exe
+build all: phony test_15.exe test_19.exe test_20.exe test_49.exe test_94.exe test_126.exe test_127.exe test_129.exe test_144.exe test_186.exe test_125.exe test_206.exe test_208.exe tset_209.exe test_210.exe test_213.exe test_215.exe test_249.exe test_276.exe test_16.exe test_17.exe test_92.exe test_101.exe
 
 # =============================================================================
 # Built-in targets
