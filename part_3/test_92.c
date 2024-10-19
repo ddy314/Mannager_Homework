@@ -17,8 +17,8 @@
 
 int main(void)
 {
-    unsigned int m;
-    scanf("%u", &m);
+    unsigned long int m;
+    scanf("%lu", &m);
     unsigned int k = 0;
 
     while ((1ULL << k) <= m)
