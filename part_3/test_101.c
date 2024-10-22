@@ -11,34 +11,31 @@ i j 均用int类型存储。
 输入：-65535 -2回车
 输出：2147467264*/
 #include <stdio.h>
-
-unsigned int circular_left_shift(unsigned int value, int shift)
+unsigned int circular_shift(int i, int j)
 {
-    int bits = sizeof(value) * 8; // 获取位数
-    shift = shift % bits; // 处理shift大于位数的情况
-    return (value << shift) | (value >> (bits - shift));
-}
+    int bit_length = 32;
+    unsigned int ui = (unsigned int)i;
 
-unsigned int circular_right_shift(unsigned int value, int shift)
-{
-    int bits = sizeof(value) * 8; // 获取位数
-    shift = shift % bits; // 处理shift大于位数的情况
-    return (value >> shift) | (value << (bits - shift));
-}
+    j = j % bit_length;
 
-int main()
-{
-    int i, j;
-    scanf("%d %d", &i, &j);
-    unsigned int result;
     if (j > 0)
     {
-        result = circular_left_shift(i, j);
+        return (ui << j) | (ui >> (bit_length - j));
     }
-    else
+    if (j < 0)
     {
-        result = circular_right_shift(i, -j);
+        j = -j;
+        return (ui >> j) | (ui << (bit_length - j));
     }
-    printf("%u", result);
+    // 如果 j == 0，不进行移位
+    return ui;
+}
+
+int main() {
+    int i, j;
+    // 输入两个整数 i 和 j
+    scanf("%d %d", &i, &j);
+    printf("%u\n", circular_shift(i, j));
+
     return 0;
 }
