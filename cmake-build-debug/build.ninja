@@ -964,6 +964,39 @@ build test_187.exe: C_EXECUTABLE_LINKER__test_187_Debug CMakeFiles/test_187.dir/
   TARGET_IMPLIB = libtest_187.dll.a
   TARGET_PDB = test_187.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target t2
+
+
+#############################################
+# Order-only phony target for t2
+
+build cmake_object_order_depends_target_t2: phony || .
+
+build CMakeFiles/t2.dir/part_3/t2.c.obj: C_COMPILER__t2_unscanned_Debug D$:/code/Mannager_Homework/part_3/t2.c || cmake_object_order_depends_target_t2
+  DEP_FILE = CMakeFiles\t2.dir\part_3\t2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\t2.dir
+  OBJECT_FILE_DIR = CMakeFiles\t2.dir\part_3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target t2
+
+
+#############################################
+# Link the executable t2.exe
+
+build t2.exe: C_EXECUTABLE_LINKER__t2_Debug CMakeFiles/t2.dir/part_3/t2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\t2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = t2.exe
+  TARGET_IMPLIB = libt2.dll.a
+  TARGET_PDB = t2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -989,6 +1022,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
+
+build t2: phony t2.exe
 
 build test_101: phony test_101.exe
 
@@ -1054,7 +1089,7 @@ build tset_209: phony tset_209.exe
 #############################################
 # Folder: D:/code/Mannager_Homework/cmake-build-debug
 
-build all: phony test_15.exe test_19.exe test_20.exe test_49.exe test_94.exe test_126.exe test_127.exe test_129.exe test_144.exe test_186.exe test_125.exe test_206.exe test_208.exe tset_209.exe test_210.exe test_213.exe test_215.exe test_249.exe test_276.exe test_16.exe test_17.exe test_92.exe test_101.exe test_275.exe test_253.exe test_268.exe test_128.exe test_187.exe
+build all: phony test_15.exe test_19.exe test_20.exe test_49.exe test_94.exe test_126.exe test_127.exe test_129.exe test_144.exe test_186.exe test_125.exe test_206.exe test_208.exe tset_209.exe test_210.exe test_213.exe test_215.exe test_249.exe test_276.exe test_16.exe test_17.exe test_92.exe test_101.exe test_275.exe test_253.exe test_268.exe test_128.exe test_187.exe t2.exe
 
 # =============================================================================
 # Built-in targets
