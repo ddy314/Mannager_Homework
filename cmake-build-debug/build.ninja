@@ -1261,6 +1261,270 @@ build test_93.exe: C_EXECUTABLE_LINKER__test_93_Debug CMakeFiles/test_93.dir/par
   TARGET_IMPLIB = libtest_93.dll.a
   TARGET_PDB = test_93.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target test_143
+
+
+#############################################
+# Order-only phony target for test_143
+
+build cmake_object_order_depends_target_test_143: phony || .
+
+build CMakeFiles/test_143.dir/part_4/test_143.c.obj: C_COMPILER__test_143_unscanned_Debug D$:/code/Mannager_Homework/part_4/test_143.c || cmake_object_order_depends_target_test_143
+  DEP_FILE = CMakeFiles\test_143.dir\part_4\test_143.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test_143.dir
+  OBJECT_FILE_DIR = CMakeFiles\test_143.dir\part_4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_143
+
+
+#############################################
+# Link the executable test_143.exe
+
+build test_143.exe: C_EXECUTABLE_LINKER__test_143_Debug CMakeFiles/test_143.dir/part_4/test_143.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test_143.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test_143.exe
+  TARGET_IMPLIB = libtest_143.dll.a
+  TARGET_PDB = test_143.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test_189
+
+
+#############################################
+# Order-only phony target for test_189
+
+build cmake_object_order_depends_target_test_189: phony || .
+
+build CMakeFiles/test_189.dir/part_4/test_189.c.obj: C_COMPILER__test_189_unscanned_Debug D$:/code/Mannager_Homework/part_4/test_189.c || cmake_object_order_depends_target_test_189
+  DEP_FILE = CMakeFiles\test_189.dir\part_4\test_189.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test_189.dir
+  OBJECT_FILE_DIR = CMakeFiles\test_189.dir\part_4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_189
+
+
+#############################################
+# Link the executable test_189.exe
+
+build test_189.exe: C_EXECUTABLE_LINKER__test_189_Debug CMakeFiles/test_189.dir/part_4/test_189.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test_189.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test_189.exe
+  TARGET_IMPLIB = libtest_189.dll.a
+  TARGET_PDB = test_189.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test_48
+
+
+#############################################
+# Order-only phony target for test_48
+
+build cmake_object_order_depends_target_test_48: phony || .
+
+build CMakeFiles/test_48.dir/part_4/test_48.c.obj: C_COMPILER__test_48_unscanned_Debug D$:/code/Mannager_Homework/part_4/test_48.c || cmake_object_order_depends_target_test_48
+  DEP_FILE = CMakeFiles\test_48.dir\part_4\test_48.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test_48.dir
+  OBJECT_FILE_DIR = CMakeFiles\test_48.dir\part_4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_48
+
+
+#############################################
+# Link the executable test_48.exe
+
+build test_48.exe: C_EXECUTABLE_LINKER__test_48_Debug CMakeFiles/test_48.dir/part_4/test_48.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test_48.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test_48.exe
+  TARGET_IMPLIB = libtest_48.dll.a
+  TARGET_PDB = test_48.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test_50
+
+
+#############################################
+# Order-only phony target for test_50
+
+build cmake_object_order_depends_target_test_50: phony || .
+
+build CMakeFiles/test_50.dir/part_4/test_50.c.obj: C_COMPILER__test_50_unscanned_Debug D$:/code/Mannager_Homework/part_4/test_50.c || cmake_object_order_depends_target_test_50
+  DEP_FILE = CMakeFiles\test_50.dir\part_4\test_50.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test_50.dir
+  OBJECT_FILE_DIR = CMakeFiles\test_50.dir\part_4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_50
+
+
+#############################################
+# Link the executable test_50.exe
+
+build test_50.exe: C_EXECUTABLE_LINKER__test_50_Debug CMakeFiles/test_50.dir/part_4/test_50.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test_50.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test_50.exe
+  TARGET_IMPLIB = libtest_50.dll.a
+  TARGET_PDB = test_50.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test_52
+
+
+#############################################
+# Order-only phony target for test_52
+
+build cmake_object_order_depends_target_test_52: phony || .
+
+build CMakeFiles/test_52.dir/part_4/test_52.c.obj: C_COMPILER__test_52_unscanned_Debug D$:/code/Mannager_Homework/part_4/test_52.c || cmake_object_order_depends_target_test_52
+  DEP_FILE = CMakeFiles\test_52.dir\part_4\test_52.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test_52.dir
+  OBJECT_FILE_DIR = CMakeFiles\test_52.dir\part_4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_52
+
+
+#############################################
+# Link the executable test_52.exe
+
+build test_52.exe: C_EXECUTABLE_LINKER__test_52_Debug CMakeFiles/test_52.dir/part_4/test_52.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test_52.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test_52.exe
+  TARGET_IMPLIB = libtest_52.dll.a
+  TARGET_PDB = test_52.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test_99
+
+
+#############################################
+# Order-only phony target for test_99
+
+build cmake_object_order_depends_target_test_99: phony || .
+
+build CMakeFiles/test_99.dir/part_4/test_99.c.obj: C_COMPILER__test_99_unscanned_Debug D$:/code/Mannager_Homework/part_4/test_99.c || cmake_object_order_depends_target_test_99
+  DEP_FILE = CMakeFiles\test_99.dir\part_4\test_99.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test_99.dir
+  OBJECT_FILE_DIR = CMakeFiles\test_99.dir\part_4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_99
+
+
+#############################################
+# Link the executable test_99.exe
+
+build test_99.exe: C_EXECUTABLE_LINKER__test_99_Debug CMakeFiles/test_99.dir/part_4/test_99.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test_99.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test_99.exe
+  TARGET_IMPLIB = libtest_99.dll.a
+  TARGET_PDB = test_99.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test_190
+
+
+#############################################
+# Order-only phony target for test_190
+
+build cmake_object_order_depends_target_test_190: phony || .
+
+build CMakeFiles/test_190.dir/part_4/test_190.c.obj: C_COMPILER__test_190_unscanned_Debug D$:/code/Mannager_Homework/part_4/test_190.c || cmake_object_order_depends_target_test_190
+  DEP_FILE = CMakeFiles\test_190.dir\part_4\test_190.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test_190.dir
+  OBJECT_FILE_DIR = CMakeFiles\test_190.dir\part_4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_190
+
+
+#############################################
+# Link the executable test_190.exe
+
+build test_190.exe: C_EXECUTABLE_LINKER__test_190_Debug CMakeFiles/test_190.dir/part_4/test_190.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test_190.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test_190.exe
+  TARGET_IMPLIB = libtest_190.dll.a
+  TARGET_PDB = test_190.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test_37
+
+
+#############################################
+# Order-only phony target for test_37
+
+build cmake_object_order_depends_target_test_37: phony || .
+
+build CMakeFiles/test_37.dir/part_4/test_37.c.obj: C_COMPILER__test_37_unscanned_Debug D$:/code/Mannager_Homework/part_4/test_37.c || cmake_object_order_depends_target_test_37
+  DEP_FILE = CMakeFiles\test_37.dir\part_4\test_37.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test_37.dir
+  OBJECT_FILE_DIR = CMakeFiles\test_37.dir\part_4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_37
+
+
+#############################################
+# Link the executable test_37.exe
+
+build test_37.exe: C_EXECUTABLE_LINKER__test_37_Debug CMakeFiles/test_37.dir/part_4/test_37.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test_37.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test_37.exe
+  TARGET_IMPLIB = libtest_37.dll.a
+  TARGET_PDB = test_37.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1301,6 +1565,8 @@ build test_128: phony test_128.exe
 
 build test_129: phony test_129.exe
 
+build test_143: phony test_143.exe
+
 build test_144: phony test_144.exe
 
 build test_15: phony test_15.exe
@@ -1315,7 +1581,11 @@ build test_187: phony test_187.exe
 
 build test_188: phony test_188.exe
 
+build test_189: phony test_189.exe
+
 build test_19: phony test_19.exe
+
+build test_190: phony test_190.exe
 
 build test_20: phony test_20.exe
 
@@ -1351,13 +1621,23 @@ build test_275: phony test_275.exe
 
 build test_276: phony test_276.exe
 
+build test_37: phony test_37.exe
+
+build test_48: phony test_48.exe
+
 build test_49: phony test_49.exe
+
+build test_50: phony test_50.exe
+
+build test_52: phony test_52.exe
 
 build test_92: phony test_92.exe
 
 build test_93: phony test_93.exe
 
 build test_94: phony test_94.exe
+
+build test_99: phony test_99.exe
 
 build tset_209: phony tset_209.exe
 
@@ -1369,7 +1649,7 @@ build tset_209: phony tset_209.exe
 #############################################
 # Folder: D:/code/Mannager_Homework/cmake-build-debug
 
-build all: phony test_15.exe test_19.exe test_20.exe test_49.exe test_94.exe test_126.exe test_127.exe test_129.exe test_144.exe test_186.exe test_125.exe test_206.exe test_208.exe tset_209.exe test_210.exe test_213.exe test_215.exe test_249.exe test_276.exe test_16.exe test_17.exe test_92.exe test_101.exe test_275.exe test_253.exe test_268.exe test_128.exe test_187.exe test_188.exe test_211.exe test_212.exe test_214.exe test_218.exe test_221.exe test_252.exe test1.exe test_93.exe
+build all: phony test_15.exe test_19.exe test_20.exe test_49.exe test_94.exe test_126.exe test_127.exe test_129.exe test_144.exe test_186.exe test_125.exe test_206.exe test_208.exe tset_209.exe test_210.exe test_213.exe test_215.exe test_249.exe test_276.exe test_16.exe test_17.exe test_92.exe test_101.exe test_275.exe test_253.exe test_268.exe test_128.exe test_187.exe test_188.exe test_211.exe test_212.exe test_214.exe test_218.exe test_221.exe test_252.exe test1.exe test_93.exe test_143.exe test_189.exe test_48.exe test_50.exe test_52.exe test_99.exe test_190.exe test_37.exe
 
 # =============================================================================
 # Built-in targets
