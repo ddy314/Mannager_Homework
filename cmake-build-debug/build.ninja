@@ -1525,6 +1525,138 @@ build test_37.exe: C_EXECUTABLE_LINKER__test_37_Debug CMakeFiles/test_37.dir/par
   TARGET_IMPLIB = libtest_37.dll.a
   TARGET_PDB = test_37.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target test_78
+
+
+#############################################
+# Order-only phony target for test_78
+
+build cmake_object_order_depends_target_test_78: phony || .
+
+build CMakeFiles/test_78.dir/part_4/test_78.c.obj: C_COMPILER__test_78_unscanned_Debug D$:/code/Mannager_Homework/part_4/test_78.c || cmake_object_order_depends_target_test_78
+  DEP_FILE = CMakeFiles\test_78.dir\part_4\test_78.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test_78.dir
+  OBJECT_FILE_DIR = CMakeFiles\test_78.dir\part_4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_78
+
+
+#############################################
+# Link the executable test_78.exe
+
+build test_78.exe: C_EXECUTABLE_LINKER__test_78_Debug CMakeFiles/test_78.dir/part_4/test_78.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test_78.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test_78.exe
+  TARGET_IMPLIB = libtest_78.dll.a
+  TARGET_PDB = test_78.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test_108
+
+
+#############################################
+# Order-only phony target for test_108
+
+build cmake_object_order_depends_target_test_108: phony || .
+
+build CMakeFiles/test_108.dir/part_4/test_108.c.obj: C_COMPILER__test_108_unscanned_Debug D$:/code/Mannager_Homework/part_4/test_108.c || cmake_object_order_depends_target_test_108
+  DEP_FILE = CMakeFiles\test_108.dir\part_4\test_108.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test_108.dir
+  OBJECT_FILE_DIR = CMakeFiles\test_108.dir\part_4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_108
+
+
+#############################################
+# Link the executable test_108.exe
+
+build test_108.exe: C_EXECUTABLE_LINKER__test_108_Debug CMakeFiles/test_108.dir/part_4/test_108.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test_108.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test_108.exe
+  TARGET_IMPLIB = libtest_108.dll.a
+  TARGET_PDB = test_108.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test_132
+
+
+#############################################
+# Order-only phony target for test_132
+
+build cmake_object_order_depends_target_test_132: phony || .
+
+build CMakeFiles/test_132.dir/part_4/test_132.c.obj: C_COMPILER__test_132_unscanned_Debug D$:/code/Mannager_Homework/part_4/test_132.c || cmake_object_order_depends_target_test_132
+  DEP_FILE = CMakeFiles\test_132.dir\part_4\test_132.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test_132.dir
+  OBJECT_FILE_DIR = CMakeFiles\test_132.dir\part_4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_132
+
+
+#############################################
+# Link the executable test_132.exe
+
+build test_132.exe: C_EXECUTABLE_LINKER__test_132_Debug CMakeFiles/test_132.dir/part_4/test_132.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test_132.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test_132.exe
+  TARGET_IMPLIB = libtest_132.dll.a
+  TARGET_PDB = test_132.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test_157
+
+
+#############################################
+# Order-only phony target for test_157
+
+build cmake_object_order_depends_target_test_157: phony || .
+
+build CMakeFiles/test_157.dir/part_4/test_157.c.obj: C_COMPILER__test_157_unscanned_Debug D$:/code/Mannager_Homework/part_4/test_157.c || cmake_object_order_depends_target_test_157
+  DEP_FILE = CMakeFiles\test_157.dir\part_4\test_157.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test_157.dir
+  OBJECT_FILE_DIR = CMakeFiles\test_157.dir\part_4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_157
+
+
+#############################################
+# Link the executable test_157.exe
+
+build test_157.exe: C_EXECUTABLE_LINKER__test_157_Debug CMakeFiles/test_157.dir/part_4/test_157.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test_157.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test_157.exe
+  TARGET_IMPLIB = libtest_157.dll.a
+  TARGET_PDB = test_157.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1555,6 +1687,8 @@ build test1: phony test1.exe
 
 build test_101: phony test_101.exe
 
+build test_108: phony test_108.exe
+
 build test_125: phony test_125.exe
 
 build test_126: phony test_126.exe
@@ -1565,11 +1699,15 @@ build test_128: phony test_128.exe
 
 build test_129: phony test_129.exe
 
+build test_132: phony test_132.exe
+
 build test_143: phony test_143.exe
 
 build test_144: phony test_144.exe
 
 build test_15: phony test_15.exe
+
+build test_157: phony test_157.exe
 
 build test_16: phony test_16.exe
 
@@ -1631,6 +1769,8 @@ build test_50: phony test_50.exe
 
 build test_52: phony test_52.exe
 
+build test_78: phony test_78.exe
+
 build test_92: phony test_92.exe
 
 build test_93: phony test_93.exe
@@ -1649,7 +1789,7 @@ build tset_209: phony tset_209.exe
 #############################################
 # Folder: D:/code/Mannager_Homework/cmake-build-debug
 
-build all: phony test_15.exe test_19.exe test_20.exe test_49.exe test_94.exe test_126.exe test_127.exe test_129.exe test_144.exe test_186.exe test_125.exe test_206.exe test_208.exe tset_209.exe test_210.exe test_213.exe test_215.exe test_249.exe test_276.exe test_16.exe test_17.exe test_92.exe test_101.exe test_275.exe test_253.exe test_268.exe test_128.exe test_187.exe test_188.exe test_211.exe test_212.exe test_214.exe test_218.exe test_221.exe test_252.exe test1.exe test_93.exe test_143.exe test_189.exe test_48.exe test_50.exe test_52.exe test_99.exe test_190.exe test_37.exe
+build all: phony test_15.exe test_19.exe test_20.exe test_49.exe test_94.exe test_126.exe test_127.exe test_129.exe test_144.exe test_186.exe test_125.exe test_206.exe test_208.exe tset_209.exe test_210.exe test_213.exe test_215.exe test_249.exe test_276.exe test_16.exe test_17.exe test_92.exe test_101.exe test_275.exe test_253.exe test_268.exe test_128.exe test_187.exe test_188.exe test_211.exe test_212.exe test_214.exe test_218.exe test_221.exe test_252.exe test1.exe test_93.exe test_143.exe test_189.exe test_48.exe test_50.exe test_52.exe test_99.exe test_190.exe test_37.exe test_78.exe test_108.exe test_132.exe test_157.exe
 
 # =============================================================================
 # Built-in targets
