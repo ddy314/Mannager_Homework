@@ -15,45 +15,61 @@
 int main()
 {
      int N,K,M;
-     if(scanf("%d %d %d",&N,&K,&M)!=2
-          || N<=0 || K<0 || M<0 || K>N)
+     if (scanf("%d %d %d", &N, &K, &M) != 3
+          || N <= 0 || K < 0 || M < 0)
           printf("ERROR");
-     else if(K==0)
-          printf("ERROR");
+     else if (K == 0)
+          printf("0");
      else
      {
-          int arr[50];
+          int arr[10];
           for(int i=0;i<N;i++)
-               arr[i]=i+1;
+               arr[i] = i + 1;
+          arr[N] = -2;
           int count = 0;
-          int sum = 0;
+          int del = 0;
           while(1)
           {
-               int count1 = 0;
                //统计剩余人数
-               for(int i=0;i<N;i++)
+               int sum = 0;
+               for (int i = 0; i < N; i++)
+               {
                     if(arr[i]!=-1)
                          sum++;
+               }
                //退出循环条件
-               if(sum==K||sum==0)
+               if (sum <= K || sum == 0)
                     break;
                //删减计数判断
-               for(int i = 0;i<N;i++)
+               for (int i = 0; i < N && del != N - K; i++)
                {
                     if(arr[i]!=-1)
                          count++;
                     //删去元素
+                    if (arr[i + 1] == -2 && count != M + 1)
+                    {
+                         i = -1;
+                    }
                     if(count==M+1)
                     {
-                         arr[i]=-1;
-                         count1++;
+                         arr[i] = -1;
+                         count = 0;
+                         del++;
                     }
-
-
-
                }
-
-
+          }
+          int first = 1;
+          for (int i = 0; i < N; i++)
+          {
+               if (arr[i] != -1)
+               {
+                    if (!first)
+                    {
+                         printf(",");
+                    }
+                    printf("%d", arr[i]);
+                    first = 0;
+               }
           }
      }
 }
