@@ -16,7 +16,7 @@ int main()
 {
      int N,K,M;
      if (scanf("%d %d %d", &N, &K, &M) != 3
-          || N <= 0 || K < 0 || M < 0)
+          || N <= 0 || K < 0 || M < 0 || K > N)
           printf("ERROR");
      else if (K == 0)
           printf("0");
